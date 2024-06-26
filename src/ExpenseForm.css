@@ -1,0 +1,53 @@
+.expense-form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 2px 2px 2px grey;
+  }
+  .Expense-form{
+    background-image: url("https://imgs.search.brave.com/8bEFMfB3cIqyB9clj0hld4WjToRO-2sxSj1KZthW7u0/rs:fit:500:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAwLzYxLzYyLzEw/LzM2MF9GXzYxNjIx/MDc0X2NMcGczbUhv/eEwxc0NhNmJLZDdn/Vkp6eTVDRGR2WG1P/LmpwZw");
+    padding-top: 40px;
+    padding-bottom: 30px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+  }
+  .expense-form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .form-control {
+    margin-bottom: 15px;
+  }
+  
+  .form-control label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-control input,
+  .form-control select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  

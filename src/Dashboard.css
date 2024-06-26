@@ -1,0 +1,78 @@
+.dashboard-container1{
+   background-color: #f5f5f5;
+}
+.dashboard-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+    animation: slideInFromLeft 1s ease-out;
+  }
+  .highlight{
+    color:#4CAF50;
+  }
+  .Welcome{
+    margin-top: 100px;
+    padding-top: 50px;
+    background-color: #f5f5f5;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: row;
+    animation: slideInFromRight 1s ease-out;
+  }
+  .Welcome p{
+    font-size: 20px;
+  }
+  .Welcome img{
+    height:300px;
+    max-width: 400px;
+    margin-right: 300px;
+    margin-left: 100px;
+    border-radius: 10px;
+  }
+  .hello{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+  }
+  .dashboard-item {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  .dashboard-item h3 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+  }
+  
+  .dashboard-item p {
+    font-size: 1.5em;
+    margin: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .dashboard-container {
+      flex-direction: column;
+      align-items: center;
+    }
+    .Welcome{
+        flex-direction: column;
+    }
+    .Welcome img{
+        margin-left: 40px;
+    }
+  
+    .dashboard-item {
+      margin: 10px 0;
+    }
+  }
+  
