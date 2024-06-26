@@ -8,3 +8,11 @@
       scroll-behavior: smooth;
     }
   }
+  body{
+    margin: 0;
+    padding: 0;
+    padding-right: 0;
+    height: 100%;
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+  }
