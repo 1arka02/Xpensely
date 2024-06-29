@@ -9,11 +9,11 @@ const Dashboard = ({ totalAmount, expenses }) => {
   return (
     <div className="dashboard-container1" id='dashboard-container1'>
        <div className='Welcome'>
-        <div>
+        <div className='wl-icon'>
         <img src=" https://imgs.search.brave.com/ijEue4nO1G46qCqFU7SCfWOIsN1gLAlBAF6n2an9EYk/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93MC5w/ZWFrcHguY29tL3dh/bGxwYXBlci82ODcv/MTAxNC9IRC13YWxs/cGFwZXItcGVhY2Ut/aXMtY29zdGx5LWJ1/dC1pdC1pcy13b3J0/aC10aGUtZXhwZW5z/ZS1xdW90ZXMtYWJv/dXQtcGVhY2UtYWZy/aWNhbi1wcm92ZXJi/LWdyZWVuLXBhcGVy/LXBvcHVsYXItcXVv/dGVzLWluc3BpcmF0/aW9uLWFmcmljYW4t/cHJvdmVyYi1xdW90/ZXMuanBn" alt="Expense Tracker" />
         </div>
         <div className='hello'>
-        <h1>Welcome to <span className="highlight">Xpensely</span> </h1>
+        <div className='w'>Welcome to <span className="highlight">Xpensely</span> </div>
         <p>Your Own <span className="highlight">Personalised</span> Dashboard</p>
         </div>
        </div>
