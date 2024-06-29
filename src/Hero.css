@@ -1,17 +1,16 @@
 .hero{
   background-color: #f8f9fa;
-  margin-top: 100px;
+  margin-top: 5rem;
   width: 100%;
   margin-left: 0;
   margin-right: 0;
 }
   .more{
-    width: 100%;
     margin-top: 0;
+    margin-left: 2vh;
+    margin-right: 2vh;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 50px;
+    padding: 3rem;
     background-color: #f8f9fa;
     min-height: 40vh;
   }
@@ -19,41 +18,45 @@
 
 .more-content {
     flex: 1;
-    padding-right: 20px;
+    margin-right: 1rem;
     animation: fadeInLeft 1s ease-out;
   }
   .more-title{
-    font-size: 3rem;
+    font-size: 3em;
     font-weight: bold;
   }
   .more-subtitle{
-    font-size: 1.5rem;
+    font-size: 1.5em;
     color: #666;
+    padding: 10px;
     margin-top: 20px;
   }
   .images{
     background-color: #edeff1;
     margin: 0;
-    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.5rem;
+    padding: 1rem;
   }
   .hero-image {
     flex: 1;
     display: grid;
-    grid-template-columns: 250px 250px;
-    grid-template-rows: 200px 200px;
-    row-gap:-10px;
-    column-gap: 60px;
+    grid-template-columns: 15em 15em;
+    grid-template-rows: 15em 15em;
+    row-gap:0.5em;
+    column-gap: 2em;
     justify-content: center;
     align-items: center;
     animation: slideInFromLeft 1s ease-out;
-    margin-left: 10px;
   }
   .more-image{
     flex:1;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     animation: slideInFromLeft 1s ease-out;
-    margin-left: 10px;
+    margin-left: 10vw;
   }
   .hero-image img {
     width: 100px;
@@ -67,19 +70,24 @@
   }
   .features-section {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   
   .features-section h2 {
-    margin-top: 50px;
-    font-size: 40px;
-    margin-bottom: 80px;
+    margin-top: 3em;
+    font-size: 2em;
+    margin-bottom: 2em;
   }
   
   .features-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
     justify-items: center;
+    align-items: center;
   }
   
   .feature-card {
@@ -89,6 +97,7 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
     transition: transform 0.3s;
+    margin:0;
   }
 
 
@@ -96,8 +105,8 @@
   transform: translateY(-10px);
 }
   .feature-card img {
-    width: 250px;
-    height: 150px;
+    width: 12em;
+    height: 10em;
     object-fit: cover;
     margin-bottom: 15px;
     border-radius: 20px;
@@ -149,9 +158,11 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      margin-left: 10vw;
+      margin-right: 10vw;
     }
    .more-image img{
-    width: 400px;
+    width: 20em;
    }
 .more-content {
       padding-right: 0;
@@ -161,13 +172,15 @@
   
 .more-title {
       font-size: 2.5rem;
+      padding: 10px;
     }
 .more-subtitle {
-      font-size: 1.25rem;
+      font-size: 1.2rem;
+      margin-left: 10px;
     }
   
     .hero-image img,.more-img img {
-      max-width: 200px;
+      max-width: 10em;
     }
   
     .features-section h2 {
@@ -178,15 +191,13 @@
     }
     .features-grid {
       display: grid;
-      grid-template-columns: 300px;
-      gap: 20px;
-      margin-left: 100px;
+      grid-template-columns: 14em;
       justify-items: center;
     }
     .hero-image{
-      grid-template-columns: 150px 150px;
-      grid-template-rows: 100px 100px;
-      gap:100px;
+      grid-template-columns: 8em 8em;
+      grid-template-rows: 5em 5em;
+      gap:3em;
     }
   }
   
