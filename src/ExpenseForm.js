@@ -52,7 +52,7 @@ const ExpenseForm = ({ expenses, setExpenses, setEditingExpense, editingExpense 
   return (
     <div className='Expense-form'>
      <div className="expense-form-container" id='expense-form-container'>
-      <h2>{editingExpense ? 'Edit Expense' : 'Add New Expense'}</h2>
+      <div className='h2'>{editingExpense ? 'Edit Expense' : 'Add New Expense'}</div>
       <form onSubmit={handleSubmit} className="expense-form">
         <div className="form-control">
           <label>Description:</label>
