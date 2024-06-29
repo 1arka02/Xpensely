@@ -38,9 +38,8 @@ const ExpenseList = ({ expenses, setExpenses,setEditingExpense }) => {
     <div className="expense-list-container" id='expense-list-container'>
       <div className='back'>
       <img src="https://imgs.search.brave.com/c3us3pZtXiuj8FmDanSOgNhObXADsQfEo67hkqUJH3g/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9jZG4u/dmVjdG9yc3RvY2su/Y29tL2kvcHJldmll/dy0xeC83Ny8wNS9n/b29kLWRpYWwtbGV2/ZWwtaWNvbi1mbGF0/LXN0eWxlLXZlY3Rv/ci0zMTExNzcwNS5q/cGc" alt="Expense Tracker" />
-
       </div>
-      <h2>Expense List</h2>
+      <p className='list'>Expense List</p>
                
       <div className="filter-container">
         <label>Filter by category:</label>
@@ -51,22 +50,6 @@ const ExpenseList = ({ expenses, setExpenses,setEditingExpense }) => {
           <option value="Transport">Transport</option>
         </select>
       </div>
-      {/* <ul className="expense-list">
-        {filteredExpenses.map((expense, index) => (
-          <li key={index} className="expense-item">
-            <div>
-              <span className="description">{expense.description}</span>
-              <span className="amount">${expense.amount.toFixed(2)}</span>
-              <span className="date">{expense.date}</span>
-              <span className="category">{expense.category}</span>
-            </div>
-            <div>
-              <button onClick={() => handleEdit(index)}>Edit</button>
-              <button onClick={() => handleDelete(index)}>Delete</button>
-            </div>
-          </li>
-        ))}
-      </ul> */}
       <table className="expense-table">
         <thead>
           <tr>
