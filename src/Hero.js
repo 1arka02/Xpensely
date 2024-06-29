@@ -24,13 +24,13 @@ const Hero = () => {
     <section className="hero">
       <div className='more'>
         <div className="more-content">
-          <h1 className="more-title">Manage Your Expenses Effortlessly</h1>
+          <p className="more-title">Manage Your Expenses Effortlessly</p>
           <p className="more-subtitle">Stay organized, make informed decisions, and achieve your financial goals with our Expense Tracker app.</p>
         </div>
         <div className="hero-image">
           <div className='images'>
             <img src="	https://moneylover.me/img/introfeature/1.svg" alt="Expense Tracker" />
-            <p>!00% Secured data</p>
+            <p>100% Secured data</p>
           </div>
           <div className='images'>
             <img src="	https://moneylover.me/img/introfeature/2.svg" alt="Expense Tracker" />
@@ -66,8 +66,8 @@ const Hero = () => {
         </div>
       </div>
       <div className="features-section">
-        <h2>Key Features</h2>
-        <div className="features-grid">
+        <div> <h2>Key Features</h2></div>
+       <div className="features-grid">
           {features.map((feature, index) => (
             <div key={index} className="feature-card">
               <img src={feature.imgSrc} alt={feature.title} className="feature-img" />
