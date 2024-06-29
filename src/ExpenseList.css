@@ -1,6 +1,5 @@
 
    .expense-list-container {
-    max-width: 100%;
     margin: 50px auto;
     border: 1px solid #ccc;
     padding: 20px;
@@ -8,13 +7,27 @@
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   }
-
+  .list{
+    color: #4CAF50;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight:bold ;
+  }
+.back{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
    .back img{
-     border-radius: 60px;
+     border-radius: 4em;
+     width:20%;
    }
   .category-icon {
-    width: 24px;
-    height: 24px;
+    width: 1.5em;
+    height: 1.5em;
   }
   .expense-list-container h2 {
     text-align: center;
@@ -29,7 +42,7 @@
   }
   
   .expense-table th, .expense-table td {
-    padding: 12px;
+    padding: 0.8em;
     text-align: left;
     border-bottom: 1px solid #ddd;
   }
@@ -48,7 +61,7 @@
   }
   
   .expense-table button {
-    padding: 8px 12px;
+    padding: 0.5em 0.8em;
     margin-right: 5px;
     border: none;
     border-radius: 4px;
@@ -82,7 +95,7 @@
   }
   
   .filter-container select {
-    padding: 5px;
+    padding: 0.4em;
   }
   
   .total-amount {
@@ -101,7 +114,7 @@
     }
   
     .expense-table button {
-      padding: 6px 10px;
+      padding: 0.5em 0.6em;
     }
   
     .total-amount {
@@ -117,6 +130,7 @@
   
     .expense-table button {
       padding: 3px 3px;
+      font-size: 1.5em;
     }
   
     .total-amount {
